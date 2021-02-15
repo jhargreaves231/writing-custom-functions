@@ -4,7 +4,7 @@ function subVariable(n1, n2){
 };
 
 function sentence(input1, input2){
-  return "Your age is " + $("input#age").val() + ". Your favorite food is " + $("input#food").val() + "."; 
+  return "Your age is " + input1 + ". Your favorite food is " + input2 + "."; 
 };
 
 //UI Logic
